@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_truescanner_v2.so \
     vendor/essential/mata/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/essential/mata/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtruescanner.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/essential/mata/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/essential/mata/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -209,6 +210,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/essential/mata/proprietary/vendor/lib/hw/vendor.essential.hardware.sidecar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.essential.hardware.sidecar@1.0-impl.so \
     vendor/essential/mata/proprietary/vendor/lib/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8998.so \
+    vendor/essential/mata/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/essential/mata/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/essential/mata/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
     vendor/essential/mata/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
@@ -255,6 +257,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/essential/mata/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/essential/mata/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
+    vendor/essential/mata/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/essential/mata/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/essential/mata/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/essential/mata/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
@@ -355,6 +358,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
     vendor/essential/mata/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/essential/mata/proprietary/vendor/lib/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastrpc_utf_stub.so \
+    vendor/essential/mata/proprietary/vendor/lib/libfiltergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfiltergenerator.so \
     vendor/essential/mata/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/essential/mata/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/essential/mata/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
@@ -374,6 +378,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/essential/mata/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
+    vendor/essential/mata/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/essential/mata/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -457,6 +463,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/essential/mata/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
@@ -477,11 +484,13 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/essential/mata/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/essential/mata/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/essential/mata/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/essential/mata/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/essential/mata/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/essential/mata/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
+    vendor/essential/mata/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/essential/mata/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/essential/mata/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/essential/mata/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -526,6 +535,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/essential/mata/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/essential/mata/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
+    vendor/essential/mata/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/essential/mata/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/essential/mata/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/essential/mata/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/essential/mata/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
@@ -646,6 +657,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/essential/mata/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
     vendor/essential/mata/proprietary/vendor/lib64/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastrpc_utf_stub.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libfiltergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfiltergenerator.so \
     vendor/essential/mata/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/essential/mata/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
     vendor/essential/mata/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
@@ -694,6 +706,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/essential/mata/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/essential/mata/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/essential/mata/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
@@ -723,6 +736,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/essential/mata/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/essential/mata/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseestraight.so \
     vendor/essential/mata/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/essential/mata/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/essential/mata/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
