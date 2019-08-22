@@ -123,6 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/essential/mata/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/essential/mata/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
+    vendor/essential/mata/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
+    vendor/essential/mata/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/essential/mata/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/essential/mata/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/essential/mata/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
