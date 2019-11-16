@@ -171,8 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/firmware/wcd9320/wcd9320_anc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wcd9320/wcd9320_anc.bin \
     vendor/essential/mata/proprietary/vendor/etc/firmware/wcd9320/wcd9320_mad_audio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
     vendor/essential/mata/proprietary/vendor/etc/firmware/wcd9320/wcd9320_mbhc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wcd9320/wcd9320_mbhc.bin \
-    vendor/essential/mata/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-    vendor/essential/mata/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/essential/mata/proprietary/vendor/etc/hbtp/hbtpcfg_qtc800s.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_qtc800s.dat \
     vendor/essential/mata/proprietary/vendor/etc/hbtp/hbtpcfg_rohm.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_rohm.dat \
     vendor/essential/mata/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg \
@@ -182,7 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-qti.rc \
     vendor/essential/mata/proprietary/vendor/etc/init/android.hardware.usb@1.0-service.mata.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.0-service.mata.rc \
     vendor/essential/mata/proprietary/vendor/etc/init/vendor.essential.hardware.sidecar@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.essential.hardware.sidecar@1.0-service.rc \
-    vendor/essential/mata/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/essential/mata/proprietary/vendor/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.essential.feature.ESSENTIAL_EXPERIENCE.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
@@ -194,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/etc/qvop/cmudict.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/cmudict.bin \
     vendor/essential/mata/proprietary/vendor/etc/qvop/noisesample.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/noisesample.bin \
     vendor/essential/mata/proprietary/vendor/etc/qvop/poc_64_hmm.gmm:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/poc_64_hmm.gmm \
-    vendor/essential/mata/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/essential/mata/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/essential/mata/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/essential/mata/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
